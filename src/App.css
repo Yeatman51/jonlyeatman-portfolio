@@ -32,7 +32,7 @@ color: white;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url("./img/background.png");
   background-color: var(--blue);
-  padding: 4px;
+  background-image: url("./img/background.png");
+  /* padding: 4px; */
 }

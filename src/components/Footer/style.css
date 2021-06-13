@@ -5,8 +5,9 @@ footer {
     box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
     padding: 20px;
     background-color: var(--org);
-    width: 100%;
+    /* width: 100%; */
     margin-top: 25px;
+    overflow: hidden;
 }
 
 #footer-relative {
@@ -83,4 +84,9 @@ footer {
 .icon-anchor {
   color: white;
   text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+
+  
 }

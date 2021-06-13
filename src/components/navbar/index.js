@@ -9,10 +9,10 @@ function Navbar() {
         
         <ul className="links">
             
-            <li><Link to="./About">Home</Link></li>
-            <li><Link to="./About">Developer</Link></li>
-            <li><Link to="./About">Designer</Link></li>
-            <li><Link to="./About">Photographer</Link></li>
+            <li><Link to="./Home">Home</Link></li>
+            <li><Link to="./Developer">Developer</Link></li>
+            <li><Link to="./Designer">Designer</Link></li>
+            <li><Link to="./Photographer">Photographer</Link></li>
             <li><Link to="./About">About Me</Link></li>
             
         </ul>

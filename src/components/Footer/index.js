@@ -3,8 +3,8 @@ import './style.css'
 
 function Footer() {
   return (
+    <div><br/><br/><br/>
     <footer id="footer-relative">
-        <br/><br/><br/>
         <div className="wrapper">
             
             <div className="icon-button">
@@ -32,6 +32,7 @@ function Footer() {
         </div>
       
     </footer>
+    </div>
   
   );
 }

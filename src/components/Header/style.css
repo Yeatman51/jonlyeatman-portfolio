@@ -1,10 +1,10 @@
 .yeatman-logo {
     background-image: url("../../img/yeatman-logo.svg");
     border: none;
-    width: 100%;
+    /* width: 100%; */
     padding: 80px 0px 100px 0px;
-    margin-top: 3px;
-    margin-bottom: 12px;
+    /* margin-top: 3px; */
+    /* margin-bottom: 12px; */
     /* background-image: inherit; */
     background-repeat: no-repeat;
     background-position: center;
@@ -17,3 +17,14 @@
     font-size: 43px;
     margin-bottom: 10px;
 } 
+
+@media screen and (max-width: 900px) {
+
+    .header-text {
+        font-size: 31px;
+      }
+    
+      .yeatman-logo {
+        padding: 45px;
+      }
+}
