@@ -1,0 +1,40 @@
+import React from "react";
+import './style.css'
+
+function Footer() {
+  return (
+    <div><br/><br/><br/>
+    <footer id="footer-relative">
+        <div className="wrapper">
+            
+            <div className="icon-button">
+                <div className="icon">
+                    <a alt="github" className="icon-anchor" href="https://github.com/Yeatman51" target="_blank" rel="noreferrer">
+                    <i className="fab fa-github"></i></a>
+                </div>
+            
+                    <a alt="github" className="icon-anchor" href="https://github.com/Yeatman51" target="_blank" rel="noreferrer">
+                    <span className="icon-span">Github</span></a>
+                
+           </div>
+
+            <div className="icon-button">
+                <div className="icon">
+                    <a alt="linkedin" className="icon-anchor" href="https://www.linkedin.com/in/jon-yeatman/" target="_blank" rel="noreferrer">
+                    <i className="fab fa-linkedin-in"></i></a>
+                </div>
+
+                    <a alt="github" className="icon-anchor" href="https://github.com/Yeatman51" target="_blank" rel="noreferrer">
+                    <span className="icon-span">LinkedIn</span></a>
+                
+            </div>
+
+        </div>
+      
+    </footer>
+    </div>
+  
+  );
+}
+
+export default Footer;
