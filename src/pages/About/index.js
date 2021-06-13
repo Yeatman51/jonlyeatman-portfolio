@@ -4,6 +4,12 @@ import './style.css'
 function About() {
   return (
     <div>
+        <div className="cont-profile-pic">
+            <img className="profile-pic"
+            src="public/img/yeatman-profile-picture.jpg" 
+            alt="Jon Yeatman Profile"/>
+        </div>
+
         <div className="about-text">
             <p>
                 I thrive best in an environment that sparks both a challenge and creativity.
@@ -18,8 +24,8 @@ function About() {
             </p>
         </div>
 
-        <a className="resume" href="../../img/JonYeatmanResume.pdf" 
-            target="_blank">My Resume</a>
+        <a className="resume" href="../img/JonYeatmanResume.pdf" 
+            target="_blank" rel="noreferrer">My Resume</a>
 
         <div className="email">
             <h3>jonlyeatman@gmail.com</h3>
