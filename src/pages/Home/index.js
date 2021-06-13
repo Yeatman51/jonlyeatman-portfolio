@@ -22,7 +22,7 @@ function Home() {
 
         <div className="icon-header">
             <h3>
-                The development technology and designing software I use every day at a quick glance
+                The development technology and designing software I use at a quick glance
             </h3>
         </div>
 
