@@ -9,23 +9,23 @@ function Footer() {
             
             <div className="icon-button">
                 <div className="icon">
-                    <a alt="github" class="icon-anchor" href="https://github.com/Yeatman51" target="_blank">
-                    <i class="fab fa-github"></i></a>
+                    <a alt="github" className="icon-anchor" href="https://github.com/Yeatman51" target="_blank">
+                    <i className="fab fa-github"></i></a>
                 </div>
             
-                    <a alt="github" class="icon-anchor" href="https://github.com/Yeatman51" target="_blank">
-                    <span class="icon-span">Github</span></a>
+                    <a alt="github" className="icon-anchor" href="https://github.com/Yeatman51" target="_blank">
+                    <span className="icon-span">Github</span></a>
                 
            </div>
 
-            <div class="icon-button">
-                <div class="icon">
-                    <a alt="linkedin" class="icon-anchor" href="https://www.linkedin.com/in/jon-yeatman/" target="_blank">
-                    <i class="fab fa-linkedin-in"></i></a>
+            <div className="icon-button">
+                <div className="icon">
+                    <a alt="linkedin" className="icon-anchor" href="https://www.linkedin.com/in/jon-yeatman/" target="_blank">
+                    <i className="fab fa-linkedin-in"></i></a>
                 </div>
 
-                    <a alt="github" class="icon-anchor" href="https://github.com/Yeatman51" target="_blank">
-                    <span class="icon-span">LinkedIn</span></a>
+                    <a alt="github" className="icon-anchor" href="https://github.com/Yeatman51" target="_blank">
+                    <span className="icon-span">LinkedIn</span></a>
                 
             </div>
 
