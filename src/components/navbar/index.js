@@ -9,7 +9,7 @@ function Navbar() {
         
         <ul className="links">
             
-            <li><Link to="./Home">Home</Link></li>
+            <li><Link to="./">Home</Link></li>
             <li><Link to="./Developer">Developer</Link></li>
             <li><Link to="./Designer">Designer</Link></li>
             <li><Link to="./Photographer">Photographer</Link></li>
@@ -17,7 +17,7 @@ function Navbar() {
             
         </ul>
 
-        <label for="nav-toggle" class="icon-burger">
+        <label for="nav-toggle" className="icon-burger">
             <div class="line"></div>
             <div class="line"></div>
             <div class="line"></div>

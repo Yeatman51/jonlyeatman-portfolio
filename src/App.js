@@ -21,7 +21,7 @@ function App() {
       <Router>
       <Navbar/>
       <Wrapper>
-          <Route exact path="/Home" component={Home} />
+          <Route exact path="/" component={Home} />
           <Route exact path="/Developer" component={Developer} />
           <Route exact path="/Designer" component={Designer} />
           <Route exact path="/Photographer" component={Photographer} />
