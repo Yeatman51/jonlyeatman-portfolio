@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/jonlyeatman-portfolio/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/jonlyeatman-portfolio/static/js/main.3eec8e68.chunk.js",
-    "main.js.map": "/jonlyeatman-portfolio/static/js/main.3eec8e68.chunk.js.map",
-    "runtime-main.js": "/jonlyeatman-portfolio/static/js/runtime-main.a3d24569.js",
-    "runtime-main.js.map": "/jonlyeatman-portfolio/static/js/runtime-main.a3d24569.js.map",
-    "static/js/2.b6b6a207.chunk.js": "/jonlyeatman-portfolio/static/js/2.b6b6a207.chunk.js",
-    "static/js/2.b6b6a207.chunk.js.map": "/jonlyeatman-portfolio/static/js/2.b6b6a207.chunk.js.map",
-    "static/js/3.21c733a8.chunk.js": "/jonlyeatman-portfolio/static/js/3.21c733a8.chunk.js",
-    "static/js/3.21c733a8.chunk.js.map": "/jonlyeatman-portfolio/static/js/3.21c733a8.chunk.js.map",
+    "main.css": "/jonlyeatman-portfolio/static/css/main.79cd6db4.chunk.css",
+    "main.js": "/jonlyeatman-portfolio/static/js/main.3a982a03.chunk.js",
+    "main.js.map": "/jonlyeatman-portfolio/static/js/main.3a982a03.chunk.js.map",
+    "runtime-main.js": "/jonlyeatman-portfolio/static/js/runtime-main.b6239c65.js",
+    "runtime-main.js.map": "/jonlyeatman-portfolio/static/js/runtime-main.b6239c65.js.map",
+    "static/js/2.f81ef136.chunk.js": "/jonlyeatman-portfolio/static/js/2.f81ef136.chunk.js",
+    "static/js/2.f81ef136.chunk.js.map": "/jonlyeatman-portfolio/static/js/2.f81ef136.chunk.js.map",
+    "static/js/3.0f656bc3.chunk.js": "/jonlyeatman-portfolio/static/js/3.0f656bc3.chunk.js",
+    "static/js/3.0f656bc3.chunk.js.map": "/jonlyeatman-portfolio/static/js/3.0f656bc3.chunk.js.map",
     "index.html": "/jonlyeatman-portfolio/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/jonlyeatman-portfolio/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.b6b6a207.chunk.js.LICENSE.txt": "/jonlyeatman-portfolio/static/js/2.b6b6a207.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/jonlyeatman-portfolio/static/media/logo.6ce24c58.svg"
+    "static/css/main.79cd6db4.chunk.css.map": "/jonlyeatman-portfolio/static/css/main.79cd6db4.chunk.css.map",
+    "static/js/2.f81ef136.chunk.js.LICENSE.txt": "/jonlyeatman-portfolio/static/js/2.f81ef136.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/jonlyeatman-portfolio/static/media/background.b6f929e7.png",
+    "static/media/style.css": "/jonlyeatman-portfolio/static/media/yeatman-logo.67b621de.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a3d24569.js",
-    "static/js/2.b6b6a207.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.3eec8e68.chunk.js"
+    "static/js/runtime-main.b6239c65.js",
+    "static/js/2.f81ef136.chunk.js",
+    "static/css/main.79cd6db4.chunk.css",
+    "static/js/main.3a982a03.chunk.js"
   ]
 }
