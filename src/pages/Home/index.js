@@ -1,12 +1,13 @@
 import React from "react";
 import './style.css'
+import ProfilePic from '../../img/yeatman-profile-picture.jpg'
 
 function Home() {
   return (
     <div>
         <div className="cont-profile-pic">
             <img className="profile-pic" 
-            src="img/yeatman-profile-picture.jpg" 
+            src={ProfilePic} 
             alt="Jon Yeatman Profile"/>
         </div>
         
