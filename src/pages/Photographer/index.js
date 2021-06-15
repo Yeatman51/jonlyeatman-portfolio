@@ -12,7 +12,7 @@ function Photographer() {
           </p>
         </div>
 
-      <div class="line"></div>
+      <div class="dividers-line"></div>
 
     </div>
   
