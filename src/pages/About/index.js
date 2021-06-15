@@ -1,12 +1,14 @@
 import React from "react";
 import './style.css'
+import ProfilePic from '../../img/yeatman-profile-picture.jpg'
+import Resume from '../../img/JonYeatmanResume.pdf'
 
 function About() {
   return (
     <div>
         <div className="cont-profile-pic">
             <img className="profile-pic"
-            src="public/img/yeatman-profile-picture.jpg" 
+            src={ProfilePic} 
             alt="Jon Yeatman Profile"/>
         </div>
 
@@ -24,7 +26,7 @@ function About() {
             </p>
         </div>
 
-        <a className="resume" href="../img/JonYeatmanResume.pdf" 
+        <a className="resume" href={Resume} 
             target="_blank" rel="noreferrer">My Resume</a>
 
         <div className="email">

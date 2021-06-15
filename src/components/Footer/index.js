@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div><br/><br/><br/>
     <footer id="footer-relative">
-        <div className="wrapper">
+        <div className="foot-wrapper">
             
             <div className="icon-button">
                 <div className="icon">
