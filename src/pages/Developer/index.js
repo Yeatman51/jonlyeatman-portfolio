@@ -14,28 +14,9 @@ function Developer() {
 
     <div class="line"></div>
 
-      <div class="portfolio-container">
-        <div class="dev-info">
-          <h1>rrr</h1>
-          <img src="" alt=""/>
-          <p></p>
-            
-            <div class="dev-icon-container">
-              <div class="dev-icon"> 
-                  <a href="" target="_blank">
-                  <i class="fab fa-github"></i>
-                  <h4>Code</h4></a>
-              </div>
-              
-              <div class="dev-icon">
-                  <a href="" target="_blank">
-                  <i class="fas fa-globe"></i>
-                  <h4>WWW.</h4></a>
-              </div>
-          </div>
-        </div>
+      
 
-      </div>
+      
         
 
     </div>
