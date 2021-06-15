@@ -23,12 +23,12 @@ footer {
 
 /* Social media icon links*/
 
-.wrapper {
+.foot-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.wrapper .icon-button{
+.foot-wrapper .icon-button{
   display: inline-block;
   height: 60px;
   width: 60px;
@@ -40,10 +40,10 @@ footer {
   box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
   transition: all 0.3s ease-out;
 }
-.wrapper .icon-button:hover{
+.foot-wrapper .icon-button:hover{
   width: 200px;
 }
-.wrapper .icon-button .icon{
+.foot-wrapper .icon-button .icon{
   display: inline-block;
   color: white;
   height: 60px;
@@ -54,22 +54,22 @@ footer {
   line-height: 60px;
   transition: all 0.3s ease-out;
 }
-.wrapper .icon-button:nth-child(1):hover .icon{
+.foot-wrapper .icon-button:nth-child(1):hover .icon{
   background: var(--gray-d);
 }
-.wrapper .icon-button:nth-child(2):hover .icon{
+.foot-wrapper .icon-button:nth-child(2):hover .icon{
   background: var(--gray-d);
 }
 
-.wrapper .icon-button .icon i{
+.foot-wrapper .icon-button .icon i{
   font-size: 25px;
   line-height: 60px;
   transition: all 0.3s ease-out;
 }
-.wrapper .icon-button:hover .icon i{
+.foot-wrapper .icon-button:hover .icon i{
   color: #fff;
 }
-.wrapper .icon-button span{
+.foot-wrapper .icon-button span{
   font-size: 20px;
   font-weight: 500;
   line-height: 60px;

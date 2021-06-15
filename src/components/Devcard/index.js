@@ -3,7 +3,7 @@ import './style.css'
 
 function Devcard(props) {
   return (
-    <div className="portfolio-container">
+    
         <div className="dev-info">
             <h1>{props.title}</h1>
             <img src={props.imgUrl} alt={props.alt}/>
@@ -25,7 +25,6 @@ function Devcard(props) {
 
             </div>
         </div>
-    </div>
   
   );
 }

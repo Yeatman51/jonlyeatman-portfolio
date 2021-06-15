@@ -1,5 +1,6 @@
 import React from "react";
 import './style.css'
+import Devcard from "../../components/Devcard"
 
 function Developer() {
   return (
@@ -14,10 +15,52 @@ function Developer() {
 
     <div class="line"></div>
 
-      
+    <div className="portfolio-container">
+      <Devcard 
+        title=""
+        imgUrl=""
+        alt=""
+        description=""
+      />
 
-      
-        
+      <Devcard 
+        title=""
+        imgUrl=""
+        alt=""
+        description=""
+      />
+
+      <Devcard 
+        title=""
+        imgUrl=""
+        alt=""
+        description=""
+      /> 
+    </div>
+
+    <div className="portfolio-container-row">
+      <Devcard 
+        title=""
+        imgUrl=""
+        alt=""
+        description=""
+      /> 
+
+      <Devcard 
+        title=""
+        imgUrl=""
+        alt=""
+        description=""
+      />
+
+      <Devcard 
+        title=""
+        imgUrl=""
+        alt=""
+        description=""
+      />
+
+    </div>
 
     </div>
   
