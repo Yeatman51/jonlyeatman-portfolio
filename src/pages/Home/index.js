@@ -19,7 +19,7 @@ function Home() {
             </p>
         </dir>
         
-        <div className="line"></div>
+        <div className="dividers-line"></div>
 
         <div className="icon-header">
             <h3>
@@ -60,7 +60,7 @@ function Home() {
             
         </div>
 
-        <div className="line"></div>
+        <div className="dividers-line"></div>
 
         <div className="design-logos">
             <div className="code-logos">

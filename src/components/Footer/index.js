@@ -24,7 +24,7 @@ function Footer() {
                     <i className="fab fa-linkedin-in"></i></a>
                 </div>
 
-                    <a alt="github" className="icon-anchor" href="https://github.com/Yeatman51" target="_blank" rel="noreferrer">
+                    <a alt="linkedin" className="icon-anchor" href="https://www.linkedin.com/in/jon-yeatman/" target="_blank" rel="noreferrer">
                     <span className="icon-span">LinkedIn</span></a>
                 
             </div>
