@@ -1,7 +1,8 @@
 import React from "react";
 import './style.css'
 import Devcard from "../../components/Devcard"
-import Image1 from '../../img/dev-img/home-page.png'
+
+import Image1 from '../../img/dev-img/treat-home.png'
 import Image2 from '../../img/dev-img/dingen-home.png'
 
 
@@ -10,7 +11,7 @@ function Developer() {
   const cards = [
     {
       title:"Treat YO Shelf",
-      ingUrl:{Image1},
+      imgSrc:{Image1},
       atl:"pic",
       description:"Treat YO Shelf is a user-friendly app that lets you organize your books and and future reading lists",
       github:"https://github.com/hstor3/treat-yo-shelf",
@@ -18,7 +19,7 @@ function Developer() {
     },
     {
       title:"DINGEN",
-      ingSrc:{Image2},
+      imgSrc:{Image2},
       atl:"pic",
       description:"DINGEN is a food app design to take the struggle of preparing tonight's dinner",
       github:"https://github.com/Yeatman51/DinGen-Web",
@@ -26,7 +27,7 @@ function Developer() {
     },
     {
       title:"Coding Quiz",
-      ingUrl:"../../img/dev-img/dingen-home.png",
+      imgSrc:"../../img/dev-img/dingen-home.png",
       atl:"pic",
       description:"This is a coding quiz designed for Developers in training to review course material",
       github:"https://github.com/Yeatman51/coding-quiz",
@@ -37,7 +38,7 @@ function Developer() {
   const cardsRow2 = [
     {
       title:"Company Password Generator",
-      ingUrl:"src/img/dev-img/home-page.png",
+      imgSrc:"src/img/dev-img/home-page.png",
       atl:"pic",
       description:"This webpage is designed to be a quick reference guide to help front in web developers",
       github:"https://github.com/Yeatman51/company-password-generator",
@@ -45,7 +46,7 @@ function Developer() {
     },
     {
       title:"Todo App",
-      ingUrl:"#",
+      imgSrc:"./img/dev-img/dingen-home.png",
       atl:"pic",
       description:"This Apple is you to keep track of all of your to do list and keep them organized and different to do categories",
       github:"https://github.com/Yeatman51/todo-app",
@@ -53,7 +54,7 @@ function Developer() {
     },
     {
       title:"Web Cheat Sheet",
-      ingUrl:"#",
+      imgSrc:"src/img/dev-img/web-cheatsheet.png",
       atl:"pic",
       description:"This webpage was designed to be a quick reference guide to help web developers",
       github:"https://github.com/Yeatman51/web-cheatsheet",
@@ -77,7 +78,7 @@ function Developer() {
     {cards.map(card => (
       <Devcard 
         title={card.title}
-        imgUrl={card.imgUrl}
+        imgSrc={card.imgSrc}
         alt={card.alt}
         description={card.description}
         github={card.github}
@@ -90,7 +91,7 @@ function Developer() {
     {cardsRow2.map(card2 => (
       <Devcard 
         title={card2.title}
-        imgUrl={card2.imgUrl}
+        imgSrc={card2.imgSrc}
         alt={card2.alt}
         description={card2.description}
         github={card2.github}

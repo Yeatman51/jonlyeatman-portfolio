@@ -6,7 +6,7 @@ function Devcard(props) {
     
         <div className="dev-info">
             <h1>{props.title}</h1>
-            <img src={props.imgUrl} alt={props.alt}/>
+            <img src={props.imgSrc} alt={props.alt}/>
             <p>{props.description}</p>
             
             <div class="dev-icon-container">
