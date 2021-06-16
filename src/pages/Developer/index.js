@@ -1,33 +1,36 @@
 import React from "react";
 import './style.css'
 import Devcard from "../../components/Devcard"
+import Image1 from '../../img/dev-img/home-page.png'
+import Image2 from '../../img/dev-img/dingen-home.png'
+
 
 function Developer() {
 
   const cards = [
     {
       title:"Treat YO Shelf",
-      ingUrl:"src/img/dev-img/home-page.png",
+      ingUrl:{Image1},
       atl:"pic",
       description:"Treat YO Shelf is a user-friendly app that lets you organize your books and and future reading lists",
-      github:"",
+      github:"https://github.com/hstor3/treat-yo-shelf",
       www:"https://treatyourshelf.herokuapp.com/",
     },
     {
       title:"DINGEN",
-      ingUrl:"#",
+      ingSrc:{Image2},
       atl:"pic",
       description:"DINGEN is a food app design to take the struggle of preparing tonight's dinner",
-      github:"",
-      www:"",
+      github:"https://github.com/Yeatman51/DinGen-Web",
+      www:"https://yeatman51.github.io/DinGen-Web/",
     },
     {
       title:"Coding Quiz",
-      ingUrl:"#",
+      ingUrl:"../../img/dev-img/dingen-home.png",
       atl:"pic",
       description:"This is a coding quiz designed for Developers in training to review course material",
-      github:"",
-      www:"",
+      github:"https://github.com/Yeatman51/coding-quiz",
+      www:"https://yeatman51.github.io/coding-quiz/",
     }
   ]
 
@@ -94,7 +97,6 @@ function Developer() {
         www={card2.www}
       /> 
     ))}
-
     </div>
 
     </div>
