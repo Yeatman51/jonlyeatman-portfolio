@@ -2,15 +2,15 @@ import React from 'react';
 import './App.css';
 // import { BrowserRouter as Router, Route } from "react-router-dom";
 import { HashRouter, Route } from 'react-router-dom';
-import Header from './components/Header';
-import Navbar from './components/navbar';
+import Header from './components/Header.js';
+import Navbar from './components/Navbar.js';
 import Wrapper from "./components/Wrapper";
 import Home from './pages/Home.js';
 import Developer from './pages/Developer.js';
 import Designer from './pages/Designer.js';
 import Photographer from './pages/Photographer.js';
 import About from './pages/About.js';
-import Footer from './components/Footer';
+import Footer from './components/Footer.js';
 
 function App() {
   return (

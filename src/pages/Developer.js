@@ -1,5 +1,5 @@
 import React from "react";
-import Devcard from "../components/Devcard"
+import Devcard from "../components/Devcard.js"
 
 import Image1 from '../assets/img/dev-img/treat-home.png'
 import Image2 from '../assets/img/dev-img/dingen-home.png'
