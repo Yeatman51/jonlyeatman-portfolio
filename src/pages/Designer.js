@@ -14,9 +14,9 @@ function Designer() {
 
       <div className="dividers-line"></div>
         
-      <div class="gd-gallery">
+      <div className="gd-gallery">
 
-        <div class="gd-gallery-img">
+        <div className="gd-gallery-img">
           <img src={process.env.PUBLIC_URL + "/images/yeatman-logo.png"} alt="test"/>
         </div>
 

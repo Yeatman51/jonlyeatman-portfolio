@@ -17,9 +17,9 @@ function Navbar() {
         </ul>
 
         <label htmlFor="nav-toggle" className="icon-burger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
+            <div className="line"></div>
+            <div className="line"></div>
+            <div className="line"></div>
         </label>
 
     </nav>

@@ -4,7 +4,7 @@ import './App.css';
 import { HashRouter, Route } from 'react-router-dom';
 import Header from './components/Header.js';
 import Navbar from './components/Navbar.js';
-import Wrapper from "./components/Wrapper";
+import Wrapper from "./components/Wrapper.js";
 import Home from './pages/Home.js';
 import Developer from './pages/Developer.js';
 import Designer from './pages/Designer.js';
