@@ -1,5 +1,4 @@
 import React from "react";
-import './style.css'
 import Devcard from "../../components/Devcard"
 
 import Image1 from '../../img/dev-img/treat-home.png'

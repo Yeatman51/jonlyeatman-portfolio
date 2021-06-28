@@ -1,5 +1,4 @@
 import React from "react";
-import './style.css'
 import ProfilePic from '../../img/yeatman-profile-picture.jpg'
 import Resume from '../../img/JonYeatmanResume.pdf'
 

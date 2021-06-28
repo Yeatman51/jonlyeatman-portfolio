@@ -1,5 +1,5 @@
 import React from "react";
-import './style.css'
+
 import ProfilePic from '../../img/yeatman-profile-picture.jpg'
 
 import html from '../../img/icons/code-icon/code-html.png'

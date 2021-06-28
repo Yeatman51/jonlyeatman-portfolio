@@ -1,5 +1,4 @@
 import React from "react";
-import './style.css'
 
 function Devcard(props) {
   return (
