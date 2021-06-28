@@ -623,12 +623,6 @@ nav {
 }
 
 /* CSS grid */
-.phot-grid-img {
-  max-width: 100%;
-  height: auto;
-  min-width: 30px;
-}
-
 .photography-gallery {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -639,6 +633,12 @@ nav {
   justify-content: center;
   align-items: center;
   object-fit: cover;
+}
+
+.photography-gallery-img {
+  max-width: 100%;
+  height: auto;
+  min-width: 30px;
 }
 
 @media screen and (max-width: 900px) {
