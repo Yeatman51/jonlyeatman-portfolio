@@ -6,58 +6,56 @@ nav {
     align-items: center;
     justify-content: center;
     align-content: center;
-      z-index: 1;
-      padding: 10px;
-    height: 55px;
+    z-index: 1;
+    padding: 10px;
+    height: 3vw;
     border-radius: 15px;
-      background-color: var(--org);
+    background-color: $orange;
   }
   
-nav .links {
-font-family: digital-7;
+.links {
+    font-family: digital-7;
     float: right;
     padding: 0;
     margin: 0;
-    width: 60%;
+    width: 80%;
     height: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-nav .links li {
+.links li {
     list-style: none;
 }
 
-nav .links a {
-    display: block;
-    padding: 15px;
-    font-size: 25px;
+.links a {
+    display: inline-block;
+    margin: 0 2px 0 2px;
+    font-size: 2.2vw;
     font-weight: bold;
     color: #fff;
-text-decoration: none;
-text-shadow: 0px 0px 8px rgb(114, 111, 111), 0px 0px 25px rgb(114, 111, 111);
+    text-decoration: none;
+    text-shadow: 0px 0px 8px rgb(114, 111, 111), 0px 0px 25px rgb(114, 111, 111);
 }
 
 .active {
-background-color: var(--gray-l);
-color: var(--org);
-
+    display: none;
 }
 
 #nav-toggle {
     position: relative;
-/* top: -100px; */
-display: none;
+    /* top: -100px; */
+    display: none;
 }
-nav .icon-burger {
+.icon-burger {
     display: none;
     position: absolute;
     right: 5%;
     top: 50%;
     transform: translateY(-50%);
 }
-nav .icon-burger .line {
+.icon-burger .line {
     width: 30px;
     height: 5px;
     background-color: #fff;

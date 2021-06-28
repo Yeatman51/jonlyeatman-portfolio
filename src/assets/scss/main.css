@@ -50,7 +50,7 @@ body {
 .header-text {
   font-family: digital-7;
   text-align: center;
-  font-size: 43px;
+  font-size: 4vw;
   margin-bottom: 10px;
 }
 
@@ -167,7 +167,7 @@ nav {
   align-content: center;
   z-index: 1;
   padding: 10px;
-  height: 55px;
+  height: 3vw;
   border-radius: 15px;
   background-color: #ca6410;
 }
@@ -191,7 +191,7 @@ nav {
 .links a {
   display: inline-block;
   margin: 0 2px 0 2px;
-  font-size: 3vw;
+  font-size: 2.2vw;
   font-weight: bold;
   color: #fff;
   text-decoration: none;
