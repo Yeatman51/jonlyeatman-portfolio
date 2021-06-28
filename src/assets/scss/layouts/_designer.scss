@@ -6,14 +6,15 @@
   .designer-text-header {
     color: white;
     font-family: digital-7;
-    font-size: 70px;
+    font-size: 5em;
     text-align: center;
     margin: 40px 0px 15px 0;
   }
   
   .designer-text-paragraph {
+    text-align: center;
     color: white;
-    font-size: 20px;
+    font-size: 1.5em;
   }
   
   .dividers-line {
@@ -22,11 +23,6 @@
     }
   
     /* CSS grid */
-    img {
-      max-width: 100%;
-      height: auto;
-      min-width: 30px;
-  }
   .gd-gallery {
       display: grid;
       /* grid-template-columns: 1fr 1fr 1fr 1fr; */
@@ -38,16 +34,20 @@
       grid-gap: 15px;
       overflow: hidden;
       width: 100%;
-      padding: 25px;
+      // margin: 5% 5% 5% 5%;
       justify-content: center;
+      justify-items: center;
       align-items: center;
       object-fit: cover;
       
   }
+
+  .gd-gallery-img {
+    max-width: 100%;
+    height: auto;
+    min-width: 30px;
+}
   
-  img:hover {
-      transform: scale(1.5);
-    }
   
   @media screen and (max-width: 900px) {
     .designer-text-header {
@@ -63,7 +63,4 @@
         margin: 0px;
     }
   
-    img:hover {
-        transform: scale(1);
-      }
   }
