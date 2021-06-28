@@ -13,7 +13,7 @@ function Photographer() {
 
       <div className="dividers-line"></div>
 
-      <div class="photography-gallery">
+      <div className="photography-gallery">
 
         <div>
             <img className="photography-gallery-img" src={process.env.PUBLIC_URL + "/images/photos-img/Yeatman_1.jpg"} alt=""/>
