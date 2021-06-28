@@ -8,17 +8,17 @@ function Devcard(props) {
             <img src={props.imgSrc} alt={props.alt}/>
             <p>{props.description}</p>
             
-            <div class="dev-icon-container">
+            <div className="dev-icon-container">
               
-              <div class="dev-icon"> 
+              <div className="dev-icon"> 
                   <a href={props.github} target="_blank" rel="noreferrer">
-                  <i class="fab fa-github"></i>
+                  <i className="fab fa-github"></i>
                   <h4>Code</h4></a>
               </div>
               
-              <div class="dev-icon">
+              <div className="dev-icon">
                   <a href={props.www} target="_blank" rel="noreferrer">
-                  <i class="fas fa-globe"></i>
+                  <i className="fas fa-globe"></i>
                   <h4>WWW.</h4></a>
               </div>
 

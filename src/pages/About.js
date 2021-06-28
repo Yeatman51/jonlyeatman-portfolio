@@ -1,6 +1,6 @@
 import React from "react";
-import ProfilePic from '../../img/yeatman-profile-picture.jpg'
-import Resume from '../../img/JonYeatmanResume.pdf'
+import ProfilePic from '../assets/img/yeatman-profile-picture.jpg'
+import Resume from '../assets/img/JonYeatmanResume.pdf'
 
 function About() {
   return (

@@ -16,7 +16,7 @@ function Navbar() {
             
         </ul>
 
-        <label for="nav-toggle" className="icon-burger">
+        <label htmlFor="nav-toggle" className="icon-burger">
             <div class="line"></div>
             <div class="line"></div>
             <div class="line"></div>

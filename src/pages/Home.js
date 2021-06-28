@@ -1,25 +1,25 @@
 import React from "react";
 
-import ProfilePic from '../../img/yeatman-profile-picture.jpg'
+import ProfilePic from '../assets/img/yeatman-profile-picture.jpg'
 
-import html from '../../img/icons/code-icon/code-html.png'
-import css from '../../img/icons/code-icon/code-css.png'
-import js from '../../img/icons/code-icon/code-js.png'
-import re from '../../img/icons/code-icon/code-react.png'
-import nd from '../../img/icons/code-icon/code-node.png'
-import git from '../../img/icons/code-icon/code-git-white.png'
-// import npm from '../../img/icons/code-icon/code-npm.png'
-import gsap from '../../img/icons/code-icon/code-gsap.png'
-import bs from '../../img/icons/code-icon/code-bs.png'
-import tw from '../../img/icons/code-icon/code-tw.png'
+import html from '../assets/img/icons/code-icon/code-html.png'
+import css from '../assets/img/icons/code-icon/code-css.png'
+import js from '../assets/img/icons/code-icon/code-js.png'
+import re from '../assets/img/icons/code-icon/code-react.png'
+import nd from '../assets/img/icons/code-icon/code-node.png'
+import git from '../assets/img/icons/code-icon/code-git-white.png'
+// import npm from 'assets/../img/icons/code-icon/code-npm.png'
+import gsap from '../assets/img/icons/code-icon/code-gsap.png'
+import bs from '../assets/img/icons/code-icon/code-bs.png'
+import tw from '../assets/img/icons/code-icon/code-tw.png'
 
-import ai from '../../img/icons/design-icon/adobe-ai.png'
-import xd from '../../img/icons/design-icon/adobe-xd.png'
-import ps from '../../img/icons/design-icon/adobe-ps.png'
-import id from '../../img/icons/design-icon/adobe-id.png'
-import lr from '../../img/icons/design-icon/adobe-lr.png'
-import pr from '../../img/icons/design-icon/adobe-pr.png'
-import ae from '../../img/icons/design-icon/adobe-ae.png'
+import ai from '../assets/img/icons/design-icon/adobe-ai.png'
+import xd from '../assets/img/icons/design-icon/adobe-xd.png'
+import ps from '../assets/img/icons/design-icon/adobe-ps.png'
+import id from '../assets/img/icons/design-icon/adobe-id.png'
+import lr from '../assets/img/icons/design-icon/adobe-lr.png'
+import pr from '../assets/img/icons/design-icon/adobe-pr.png'
+import ae from '../assets/img/icons/design-icon/adobe-ae.png'
 
 
 
