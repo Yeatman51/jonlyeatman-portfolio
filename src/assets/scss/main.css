@@ -35,7 +35,7 @@ body {
 }
 
 .yeatman-logo {
-  background-image: url("../../img/yeatman-logo.svg");
+  background-image: url("/src/assets/img/yeatman-logo.svg");
   border: none;
   /* width: 100%; */
   padding: 80px 0px 100px 0px;

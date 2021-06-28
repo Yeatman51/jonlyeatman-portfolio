@@ -33,7 +33,7 @@ body {
   background-position: center;
   background-size: cover;
   background-color: var(--blue);
-  background-image: url("./img/background.png");
+  background-image: url("/src/assets/img/background.png");
   /* padding: 4px; */
 }
 
