@@ -28,6 +28,17 @@ function Footer() {
                 
             </div>
 
+            <div className="icon-button">
+                <div className="icon">
+                    <a alt="Email" className="icon-anchor" href="mailto:jonlyeatman@gmail.com" target="_blank" rel="noreferrer">
+                    <i className="fas fa-envelope"></i></a>
+                </div>
+
+                    <a alt="Email" className="icon-anchor" href="mailto:jonlyeatman@gmail.com" target="_blank" rel="noreferrer">
+                    <span className="icon-span">Email Jon</span></a>
+                
+            </div>
+
         </div>
       
     </footer>

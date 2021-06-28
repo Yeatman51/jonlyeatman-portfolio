@@ -130,6 +130,10 @@ footer {
   background: var(--gray-d);
 }
 
+.foot-wrapper .icon-button:nth-child(3):hover .icon {
+  background: var(--gray-d);
+}
+
 .foot-wrapper .icon-button .icon i {
   font-size: 25px;
   line-height: 60px;
@@ -387,7 +391,7 @@ nav {
 .code-logos-container {
   font-family: digital-7;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-items: center;
   margin-bottom: 27px;
 }

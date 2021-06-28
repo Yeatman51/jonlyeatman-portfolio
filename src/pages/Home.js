@@ -8,11 +8,13 @@ import js from '../assets/img/icons/code-icon/code-js.png'
 import re from '../assets/img/icons/code-icon/code-react.png'
 import nd from '../assets/img/icons/code-icon/code-node.png'
 import git from '../assets/img/icons/code-icon/code-git-white.png'
-// import npm from 'assets/../img/icons/code-icon/code-npm.png'
+import npm from '../assets/img/icons/code-icon/code-npm.png'
+import sass from '../assets/img/icons/code-icon/code-sass.png'
 import gsap from '../assets/img/icons/code-icon/code-gsap.png'
 import bs from '../assets/img/icons/code-icon/code-bs.png'
 import tw from '../assets/img/icons/code-icon/code-tw.png'
 
+import figma from '../assets/img/icons/design-icon/design-figma.png'
 import ai from '../assets/img/icons/design-icon/adobe-ai.png'
 import xd from '../assets/img/icons/design-icon/adobe-xd.png'
 import ps from '../assets/img/icons/design-icon/adobe-ps.png'
@@ -60,6 +62,11 @@ function Home() {
             </div>
 
             <div className="code-logos">
+                <img src={sass} alt="SASS Logo"/>
+                <h3>SASS</h3>
+            </div>
+
+            <div className="code-logos">
                 <img src={js} alt="JavaScript Logo"/>
                 <h3>JavaScript</h3>
             </div>
@@ -70,8 +77,13 @@ function Home() {
             </div>
 
             <div className="code-logos">
-                <img src={nd} alt="React Logo"/>
+                <img src={nd} alt="Node Logo"/>
                 <h3>NODE</h3>
+            </div>
+
+            <div className="code-logos">
+                <img src={npm} alt="NPM Logo"/>
+                <h3>NPM</h3>
             </div>
 
             <div className="code-logos">
@@ -99,6 +111,11 @@ function Home() {
         <div className="dividers-line"></div>
 
         <div className="design-logos">
+            <div className="code-logos">
+                <img src={figma} alt="Figma Logo"/>
+                <h3>Figma</h3>
+            </div>
+
             <div className="code-logos">
                 <img src={ai} alt="Illustrator Logo"/>
                 <h3>Illustrator</h3>
