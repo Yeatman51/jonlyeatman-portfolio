@@ -399,6 +399,11 @@ nav {
   font-size: 25px;
   width: 220px;
 }
+.code-logos img {
+  max-width: 100%;
+  height: auto;
+  min-width: 30px;
+}
 
 .code-logos h3 {
   margin-top: -25px;
@@ -410,6 +415,11 @@ nav {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-items: center;
   margin-bottom: 27px;
+}
+.design-logos img {
+  max-width: 100%;
+  height: auto;
+  min-width: 30px;
 }
 
 .email {

@@ -52,6 +52,12 @@ box-shadow: 5px 5px 10px rgb(37, 37, 37);
   text-align: center;
   font-size: 25px;
   width: 220px;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    min-width: 30px;
+  }
 }
 
 .code-logos h3 {
@@ -64,6 +70,12 @@ box-shadow: 5px 5px 10px rgb(37, 37, 37);
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-items: center;
   margin-bottom: 27px;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    min-width: 30px;
+  }
 }
 
 .email {
