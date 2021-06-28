@@ -13,6 +13,7 @@ function Navbar() {
             <li><Link to="./Designer">Designer</Link></li>
             <li><Link to="./Photographer">Photographer</Link></li>
             <li><Link to="./About">About Me</Link></li>
+            <li><Link to="./Contact">Contact</Link></li>
             
         </ul>
 
